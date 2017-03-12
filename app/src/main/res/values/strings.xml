@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SE2Einzelphase</string>
+    <string name="heading">Divisionsrechner</string>
+    <string name="dividend">Dividend:</string>
+    <string name="divisor">Divisor:</string>
+    <string name="btndivide">Dividiere</string>
+    <string name="output">Output:</string>
 </resources>
