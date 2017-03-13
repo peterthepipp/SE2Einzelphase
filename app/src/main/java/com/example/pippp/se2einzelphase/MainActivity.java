@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String txtdividend= this.inputdividend.getText().toString();
                 String txtdivisor = this.inputdivisor.getText().toString();
                 checkInput(txtdividend,txtdivisor);
-                txtoutput.setText(Float.toString(calculator.divide(Float.parseFloat(txtdividend), Float.parseFloat(txtdivisor))));
+                txtoutput.setText(Double.toString(calculator.divide(Double.parseDouble(txtdividend), Double.parseDouble(txtdivisor))));
 
 
             }catch (Exception e){

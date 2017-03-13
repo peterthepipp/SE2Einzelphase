@@ -10,7 +10,7 @@ public class Calculator {
 
     }
 
-    public float divide(float dividend, float divisor) throws Exception{
+    public double divide(double dividend, double divisor) throws Exception{
 
         if(divisor==0){
             throw new Exception("Divison durch 0 nicht möglich");

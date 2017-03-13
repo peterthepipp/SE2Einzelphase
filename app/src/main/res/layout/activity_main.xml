@@ -15,11 +15,12 @@
         android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@+id/textdividend"
         android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@+id/txtheading"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
@@ -29,7 +30,9 @@
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" />
 
     <TextView
         android:id="@+id/textdividend"
@@ -40,7 +43,8 @@
         android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@+id/txtheading"
         android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
 
     <EditText
         android:id="@+id/inputtxtdividend"
@@ -51,7 +55,8 @@
         android:ems="10"
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintLeft_toRightOf="@+id/textdividend"
-        app:layout_constraintTop_toBottomOf="@+id/txtheading" />
+        app:layout_constraintTop_toBottomOf="@+id/txtheading"
+        android:layout_marginStart="16dp" />
 
     <EditText
         android:id="@+id/inputtxtdivisor"
@@ -62,11 +67,12 @@
         android:ems="10"
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintLeft_toRightOf="@+id/txtdivisior"
-        app:layout_constraintTop_toBottomOf="@+id/inputtxtdividend" />
+        app:layout_constraintTop_toBottomOf="@+id/inputtxtdividend"
+        android:layout_marginStart="30dp" />
 
     <Button
         android:id="@+id/btndiv"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
@@ -76,7 +82,9 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputtxtdivisor" />
+        app:layout_constraintTop_toBottomOf="@+id/inputtxtdivisor"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" />
 
     <TextView
         android:id="@+id/lbloutput"
@@ -87,7 +95,8 @@
         android:text="@string/output"
         android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndiv" />
+        app:layout_constraintTop_toBottomOf="@+id/btndiv"
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/txtoutput"
@@ -100,5 +109,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/lbloutput"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndiv" />
+        app:layout_constraintTop_toBottomOf="@+id/btndiv"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 </android.support.constraint.ConstraintLayout>
